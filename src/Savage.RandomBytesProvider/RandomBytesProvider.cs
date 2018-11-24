@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace Savage.RandomBytesProvider
+namespace Savage.Providers
 {
     public interface IRandomBytesProvider
     {

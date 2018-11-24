@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace Savage.RandomBytesProvider.UnitTests
+namespace Savage.Providers
 {
     public class RandomBytesProviderTests
     {

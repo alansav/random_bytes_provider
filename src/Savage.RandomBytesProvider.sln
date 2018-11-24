@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Savage.RandomBytesProvider", "Savage.RandomBytesProvider\Savage.RandomBytesProvider.csproj", "{AB568C8F-84A2-4E5C-8AA0-56B4D1CB1A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Savage.RandomBytesProvider.UnitTests", "Savage.RandomBytesProvider.UnitTests\Savage.RandomBytesProvider.UnitTests.csproj", "{03CF1F83-A6A0-4A7A-AA3A-290FF62977E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB568C8F-84A2-4E5C-8AA0-56B4D1CB1A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB568C8F-84A2-4E5C-8AA0-56B4D1CB1A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB568C8F-84A2-4E5C-8AA0-56B4D1CB1A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB568C8F-84A2-4E5C-8AA0-56B4D1CB1A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CF1F83-A6A0-4A7A-AA3A-290FF62977E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CF1F83-A6A0-4A7A-AA3A-290FF62977E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CF1F83-A6A0-4A7A-AA3A-290FF62977E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CF1F83-A6A0-4A7A-AA3A-290FF62977E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BEC1632-9FBB-4972-B244-C0379A5D0DFD}
+	EndGlobalSection
+EndGlobal

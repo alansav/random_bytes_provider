@@ -11,6 +11,7 @@
     patch: true
     file: '**\*.csproj'
     version: '{version}'
+    package_version: '{version}'
   build_script:
   - cmd: dotnet build -c Release -v minimal src\Savage.RandomBytesProvider.sln
   after_build:

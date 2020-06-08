@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45;net46;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Title>Random Bytes Provider</Title>
     <Authors>Alan Savage</Authors>
     <Description>Library for generating random bytes with an interface to allow easy mocking in unit tests.</Description>
@@ -11,12 +11,8 @@
     <PackageTags>secure random bytes provider;</PackageTags>
     <PackageId>RandomBytesProvider</PackageId>
     <Product>Savage.RandomBytesProvider</Product>
-    <!-- Version elements are intentionally empty as they are provided by the build process-->
     <Version>0.0.0.0</Version>
-    <PackageVersion></PackageVersion>
-    <AssemblyVersion></AssemblyVersion>
-    <FileVersion></FileVersion>
-    <InformationalVersion></InformationalVersion>
+    <PackageVersion>0.0.0.0</PackageVersion>
     <RootNamespace>Savage.Providers</RootNamespace>
   </PropertyGroup>
 

@@ -1,9 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.1;net45;net46;</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.1;</TargetFrameworks>
     <IsPackable>false</IsPackable>
     <RootNamespace>Savage.Providers</RootNamespace>
+    <Version>0.0.0.0</Version>
+    <PackageVersion>0.0.0.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

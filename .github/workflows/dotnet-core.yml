@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release src\Savage.RandomBytesProvider.sln
     - name: Test
-      run: dotnet test --no-restore --no-build --verbosity normal src\Savage.RandomBytesProvider.sln
+      run: dotnet test --configuration Release --no-restore --no-build --verbosity normal src\Savage.RandomBytesProvider.sln

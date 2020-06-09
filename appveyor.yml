@@ -16,7 +16,7 @@
   - cmd: dotnet build -c Release -v minimal src\Savage.RandomBytesProvider.sln
   after_build:
   - cmd: dotnet test -c Release -v minimal --no-build src\Savage.RandomBytesProvider.sln
-  - cmd: dotnet pack -c Release -v minimal --no-build --include-source --include-symbols src\Savage.RandomBytesProvider\Savage.RandomBytesProvider.csproj
+  - cmd: dotnet pack -c Release -v minimal --no-build src\Savage.RandomBytesProvider\Savage.RandomBytesProvider.csproj
   artifacts:
     - path: 'src\**\*.nupkg'
       name: nuget package
@@ -46,4 +46,4 @@
   - cmd: dotnet build -c Release -v minimal src\Savage.RandomBytesProvider.sln
   after_build:
   - cmd: dotnet test -c Release -v minimal --no-build src\Savage.RandomBytesProvider.sln
-  - cmd: dotnet pack -c Release -v minimal --no-build --include-source --include-symbols src\Savage.RandomBytesProvider\Savage.RandomBytesProvider.csproj
+  - cmd: dotnet pack -c Release -v minimal --no-build src\Savage.RandomBytesProvider\Savage.RandomBytesProvider.csproj
